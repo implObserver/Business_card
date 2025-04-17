@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 7vw;
+    border-radius: 30px;
     width: 100%;
+    max-width: 400px;
 }

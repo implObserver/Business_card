@@ -45,6 +45,7 @@ import testTodoImage1 from '@/shared/assets/projects/testTodo/testTodo.png'
 import fabrica from '@/shared/assets/projects/fabrica_of_projects/Вставленное изображение.png'
 
 import autoPlusMagazine from '@/shared/assets/projects/autoPlusMagazine/Вставленное изображение.png'
+import noimage from '@/shared/assets/noimage.png'
 
 export const projects = {
     TicTacToe: {
@@ -277,7 +278,7 @@ export const projects = {
             'TypeScript',
             'RTK Query',
         ],
-        preview: [],
+        preview: [noimage],
         link: "",
         repository: "https://github.com/implObserver/priceseller"
     }
