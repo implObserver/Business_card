@@ -23,7 +23,7 @@ export const Projects = () => {
                     <Title></Title>
                 </TitleContext.Provider>
             </div>
-            {fill()}
+           
         </div>
     )
 }

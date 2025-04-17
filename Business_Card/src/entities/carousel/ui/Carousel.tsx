@@ -44,16 +44,9 @@ export const Carousel = () => {
         }, 530);
     };
 
-    const visibleComponents = [
-        components[currentIndex],
-        components[(currentIndex + 1) % components.length],
-        components[(currentIndex + 2) % components.length],
-        components[(currentIndex + 3) % components.length],
-        components[(currentIndex + 4) % components.length],
-        components[(currentIndex + 5) % components.length],
-        components[(currentIndex + 6) % components.length],
-        components[(currentIndex + 7) % components.length],
-    ];
+    const visibleComponents = Array.from({ length: 8 }, (_, i) =>
+        components[(currentIndex + i) % components.length]
+    );
 
     const fill = () => {
         return visibleComponents.map((component, index) => {

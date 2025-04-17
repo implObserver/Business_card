@@ -15,23 +15,27 @@ import typescriptImage from '@/shared/assets/skills/typescript.svg';
 import viteImage from '@/shared/assets/skills/vite.svg';
 import webpackImage from '@/shared/assets/skills/webpack.svg';
 import mobXImgae from '@/shared/assets/skills/mobx.svg'
+import nextImage from '@/shared/assets/skills/Next.js.svg'
+import tailwindImage from '@/shared/assets/skills/Tailwind_CSS_Logo.svg'
 
 export const skills = {
-    css: { name: "CSS", image: cssImage },
+    react: { name: "React", image: reactImage },
+    next: { name: "NextJS", image: nextImage },
+    typescript: { name: "Typescript", image: typescriptImage },
+    nodejs: { name: "NodeJS", image: nodejsImage },
     express: { name: "Express", image: expressImage },
+    prisma: { name: "Prisma", image: prismaImage },
+    postgresql: { name: "PostgreSQL", image: postgresqlImage },
+    tailwind: { name: 'Tailwind', image: tailwindImage },
+    redux: { name: "Redux", image: reduxImage },
+    vite: { name: "Vite", image: viteImage },
+    mongo: { name: "MongoDB", image: mongoImage },
+    mobX: { name: "MobX", image: mobXImgae },
+    webpack: { name: "Webpack", image: webpackImage },
+    javascript: { name: "JavaScript", image: javascriptImage },
+    html: { name: "HTML", image: htmlImage },
+    css: { name: "CSS", image: cssImage },
     git: { name: "Git", image: gitImage },
     github: { name: "Github", image: githubImage },
-    html: { name: "HTML", image: htmlImage },
-    javascript: { name: "JavaScript", image: javascriptImage },
-    mongo: { name: "MongoDB", image: mongoImage },
-    nodejs: { name: "NodeJS", image: nodejsImage },
     npm: { name: "NPM", image: npmImage },
-    postgresql: { name: "PostgreSQL", image: postgresqlImage },
-    prisma: { name: "Prisma", image: prismaImage },
-    react: { name: "React", image: reactImage },
-    redux: { name: "Redux", image: reduxImage },
-    mobX: { name: "MobX", image: mobXImgae },
-    typescript: { name: "Typescript", image: typescriptImage },
-    vite: { name: "Vite", image: viteImage },
-    webpack: { name: "Webpack", image: webpackImage },
 };

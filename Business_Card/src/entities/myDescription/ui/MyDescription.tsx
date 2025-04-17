@@ -3,10 +3,8 @@ import styles from './styles/MyDescription.module.css'
 export const MyDescription = () => {
     return (
         <div className={styles.description}>
-            <span>Привет! Меня зовут Вадим и я увлекаюсь написанием сайтов. </span>
-            <span>Я мечтаю стать FullStack web-разработчиком,
-                поэтому создаю собственные fullstack проекты и этот сайт-визитку.</span>
-            <span className={styles.thankyou}>Спасибо за внимание!</span>
+            <span>Привет. Я профессиональный fullstack web-разработчик. Обожаю свою работу, чистый код и FSD.</span>
+            <img className={styles.avatar} src="src/shared/assets/me.png" alt="" />
         </div>
     )
 }

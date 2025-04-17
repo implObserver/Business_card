@@ -42,6 +42,10 @@ import oldBusinessCardImage3 from '@/shared/assets/projects/oldBusinessCard/oldB
 import testProductsImage1 from '@/shared/assets/projects/testProduct/screen.png'
 import testTodoImage1 from '@/shared/assets/projects/testTodo/testTodo.png'
 
+import fabrica from '@/shared/assets/projects/fabrica_of_projects/Вставленное изображение.png'
+
+import autoPlusMagazine from '@/shared/assets/projects/autoPlusMagazine/Вставленное изображение.png'
+
 export const projects = {
     TicTacToe: {
         type: 'Vanilla',
@@ -222,5 +226,59 @@ export const projects = {
         preview: [oldBusinessCardImage1, oldBusinessCardImage2, oldBusinessCardImage3],
         link: "https://implobserver.github.io/homepage/",
         repository: "https://github.com/implObserver/homepage"
+    },
+    FabricaOfProjects: {
+        type: 'NextJS',
+        name: "Фабрика проектов",
+        description: [
+            "Участие в разработке сайта.",
+            "Разработка личного кабинета стартапера на этапе MVP-1",
+            "Рефакторинг кода и архитектуры проекта"
+        ],
+        parameters: [
+            'NextJS',
+            'Tailwind',
+            'TypeScript',
+            'RTK Query'
+        ],
+        preview: [fabrica],
+        link: "https://fabrica-frontend-react.vercel.app/",
+        repository: "https://github.com/salfa-ru/fabrica_frontend_react"
+    },
+    AutoPlusMagazine: {
+        type: 'React',
+        name: "Магазин автозапчастей AutoPlus",
+        description: [
+            "Разработка фронтенд.",
+            "Упрощенный сайт-магазин без личного кабинета для магазина автозапчастей",
+        ],
+        parameters: [
+            'React',
+            'Tailwind',
+            'TypeScript',
+            'RTK Query',
+        ],
+        preview: [autoPlusMagazine],
+        link: "https://aplys.ru/products?page=1",
+        repository: "https://github.com/implObserver/autoPlusMagazine"
+    },
+
+    PriceSeller: {
+        type: 'NextJS',
+        name: "PriceSeller",
+        description: [
+            "Участие в разработке системы учета торговли.",
+            "Единолично: Проектирование архитектуры и разработка фронтент. Реализация Passport JWT HttpOnly на laravel",
+            "В команде: организация SWAGGER и DOXYGEN. Проектирование RestAPI"
+        ],
+        parameters: [
+            'React',
+            'Tailwind',
+            'TypeScript',
+            'RTK Query',
+        ],
+        preview: [],
+        link: "",
+        repository: "https://github.com/implObserver/priceseller"
     }
 };

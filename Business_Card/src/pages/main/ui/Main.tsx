@@ -19,6 +19,7 @@ export const Main = () => {
             <Tab type="Vanilla"></Tab>
             <Tab type="React"></Tab>
             <Tab type="FullStack"></Tab>
+            <Tab type="NextJS"></Tab>
             <Contacts></Contacts>
         </div>
     )
