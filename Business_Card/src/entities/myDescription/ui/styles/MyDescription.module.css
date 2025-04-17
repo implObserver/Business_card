@@ -17,6 +17,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
-    background-color: #000;
+    border-radius: 7vw;
+    width: 100%;
 }
