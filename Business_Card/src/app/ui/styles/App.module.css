@@ -18,6 +18,13 @@
   --responsive-size: 1vw;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: black !important;
+    /* Добавь любые другие переменные для тёмной темы */
+  }
+}
+
 @media (min-width: 1000px) {
   :root {
     --responsive-size: 10px;
